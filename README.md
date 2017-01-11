@@ -15,3 +15,10 @@ OrangeADA is released under the "new" 3-Clause BSD license. See the [LICENSE](LI
 ## ChangeLog
 
 Stay tuned for more information! =)
+
+## Dependencies
+
+OrangeADA uses/depends following components:
+* [Python 2.7](http://www.python.org)
+* [DJango](https://www.djangoproject.org)
+* [RouterSploit](https://github.com/reverse-shell/routersploit)
