@@ -1,8 +1,8 @@
-# OrangeADA
+# OrangeADE
 
-Welcome to the OrangeADA!
+Welcome to the OrangeADE!
 
-OrangeADA stands for Orange Autonomous Device Awareness. It will verify your router/modem remotely against known vulnerabilities.
+OrangeADE stands for Orange Autonomous Device Evaluation. It will verify your router/modem remotely against known vulnerabilities.
 
 This project was started in January 2017 by CeDeROM Tomasz CEDRO for Orange POLSKA CERT/SOC.
 
@@ -10,7 +10,7 @@ USE AT YOUR OWN RISK! =)
 
 ## License
 
-OrangeADA is released under the "new" 3-Clause BSD license. See the [LICENSE](LICENSE) file for more details.
+OrangeADE is released under the "new" 3-Clause BSD license. See the [LICENSE](LICENSE) file for more details.
 
 ## ChangeLog
 
@@ -18,7 +18,7 @@ Stay tuned for more information! =)
 
 ## Dependencies
 
-OrangeADA uses/depends following components:
+OrangeADE uses/depends following components:
 * [Python 2.7](http://www.python.org)
 * [DJango](https://www.djangoproject.org)
 * [RouterSploit](https://github.com/reverse-shell/routersploit)
