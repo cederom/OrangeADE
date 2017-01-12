@@ -20,5 +20,5 @@ Stay tuned for more information! =)
 
 OrangeADE uses/depends following components:
 * [Python 2.7](http://www.python.org)
-* [DJango](https://www.djangoproject.org)
-* [RouterSploit](https://github.com/reverse-shell/routersploit)
+* [DJango](https://www.djangoproject.org): pysqlite
+* [RouterSploit](https://github.com/reverse-shell/routersploit): listed in requirements.txt
