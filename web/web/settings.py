@@ -20,6 +20,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!WHEN YOU LAUNCH YOUR OWN SITE MAKE SURE TO CHANGE THIS SECRET KEY!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 SECRET_KEY = 'wjj43j-$@i54pj@#3-^t8(z%u!-)tuen!khf@^91g8c1!*cnoa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -119,3 +122,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [ os.path.join(BASE_DIR, "static"), ]
+
+# Session configuration
+#SESSION_CACHE_ALIAS = 'default'
+SESSION_COOKIE_AGE = 86400 #24h
+SESSION_COOKIE_HTTPONLY = True
+SESSION_COOKIE_NAME = 'sessionid'
+SESSION_COOKIE_PATH = '/'
+SESSION_COOKIE_SECURE = True
+SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
+#SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+

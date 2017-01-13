@@ -22,14 +22,15 @@ Stay tuned for more information! =)
 
 OrangeADE uses / depends on following components:
 * [Python 2.7](http://www.python.org) (Routersploit hard dependency)
-* [DJango](https://www.djangoproject.org): pysqlite
+* [DJango](https://www.djangoproject.org): pysqlite, importlib  
 * [RouterSploit](https://github.com/reverse-shell/routersploit): listed in requirements.txt
 
 ## TODO
 
 - [X] Use Virtualenv. 
 - [X] Use DJango.
-  - [ ] frontend.
+  - [X] frontend.
+  - [ ] client session.
   - [ ] job schedule.
   - [ ] job connector.
   - [ ] search cache.
