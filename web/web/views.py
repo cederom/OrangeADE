@@ -8,7 +8,7 @@ import datetime
 
 def index(request):
     now = datetime.datetime.now()
-    t = get_template('index.html')
+    t = get_template('main_index.html')
     try:
         sid = request.session['sid']
     except:

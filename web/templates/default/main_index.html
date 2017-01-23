@@ -1,0 +1,44 @@
+{% include "main_html_start.html" %}
+{% include "main_html_headers.html" %}
+
+<body>
+{% include "main_header.html" %}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <br/>
+            <p>Welcome to OrangeADE!</p>
+            <p>We will test your device against known problems. Just press a button below to start..</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button" align="center">START</a></p>
+            <p>Your SESSION ID: {{session_id}}</p>
+            <p>Your IP ADDRESS: {{user_addr}}</p>
+            <p>User agent     : {{user_agent}}</p>
+            <p>Current time   : {{current_date}}</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Some Heading</h2>
+                <p>We can put some statistics here..</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Another Heading</h2>
+                <p>Some known problems here..</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Yet another heading</h2>
+                <p>Still some information may find use here..</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+        </div>
+    {% include "main_footer.html" %}
+    </div> <!-- /container -->
+
+</body>
+{% include "main_html_end.html" %}
