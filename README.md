@@ -47,5 +47,11 @@ OrangeADE uses / depends on following components:
 - [X] Use Bootstrap.
 - [ ] Use Routersploit.
 
+## Troubleshooting
+
+* Django test server does not start correctly: Make sure you did install Python Virtualenv and Dependencies correctly. See [Virtualenv Manual](doc/virtualenv.md) for deteils.
+  
+* Website starts but looks ugly or some functions are missing: Make sure you did correct bootstrap of git submodules (`git submodule init; git submodule update`).
+
 <hr/>
 <sup>(C) 2017 [CeDeROM Tomasz CEDRO](http://www.tomek.cedro.info), All rights reserved! :-)</sup>
