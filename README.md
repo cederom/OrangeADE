@@ -32,20 +32,24 @@ OrangeADE uses / depends on following components:
 
 ## TODO
 
-- [X] Use Virtualenv. 
-- [X] Use DJango.
-  - [X] frontend.
-  - [ ] client session.
-  - [ ] job schedule.
-  - [ ] job connector.
-  - [ ] search cache.
-  - [ ] web cache.
-  - [ ] backend.
-  - [ ] result browser.
-  - [ ] statistics.
-- [ ] Select/Implement Task and Queue Manager.
-- [X] Use Bootstrap.
-- [ ] Use Routersploit.
+- [X] Use Virtualenv (DONE 201701).
+- [X] Use DJango (DONE 201701).
+  - [X] frontend (DONE 201701).
+  - [ ] client session (EXPECTED 201703).
+  - [ ] job schedule (EXPECTED 201705).
+  - [ ] job connector (EXPECTED 201706).
+  - [ ] search cache (EXPECTED 201708).
+  - [ ] web cache (EXPECTED 201708).
+  - [ ] backend (EXPECTED 201709).
+  - [ ] result browser (EXPECTED 201709).
+  - [ ] statistics (EXPECTED 201710).
+- [ ] Select/Implement Task and Queue Manager (EXPECTED 201709).
+- [X] Use Bootstrap (DONE 201701).
+- [ ] Use Routersploit (EXPECTED 201706).
+- [ ] Use other tools (EXPECTED 201710).
+- [ ] Internal testing and development (EXPECTED 201710).
+- [ ] Public launch (EXPECTED 201801).
+
 
 ## Troubleshooting
 
