@@ -57,5 +57,10 @@ OrangeADE uses / depends on following components:
   
 * Website starts but looks ugly or some functions are missing: Make sure you did correct bootstrap of git submodules (`git submodule init; git submodule update`).
 
+## Useful Links and Resources
+
+* [Bootsnipp](http://bootsnipp.com), a nice collection of Bootstrap components.
+* [Orange Monster icon](http://www.iconarchive.com/show/favorite-monsters-icons-by-madoyster/monster-orange-icon.html)
+
 <hr/>
 <sup>(C) 2017 [CeDeROM Tomasz CEDRO](http://www.tomek.cedro.info), All rights reserved! :-)</sup>
