@@ -127,12 +127,18 @@ STATICFILES_DIRS = [ os.path.join(BASE_DIR, "OrangeADE/static"), ]
 
 # Session configuration
 #SESSION_CACHE_ALIAS = 'default'
-SESSION_COOKIE_AGE = 86400 #24h
-SESSION_COOKIE_HTTPONLY = True
-SESSION_COOKIE_NAME = 'sessionid'
-SESSION_COOKIE_PATH = '/'
+# SESSION_COOKIE_AGE = 86400 #24h
+# SESSION_COOKIE_HTTPONLY = True
+# SESSION_COOKIE_NAME = 'sessionid'
+# SESSION_COOKIE_PATH = '/'
 # SET SESSION_COOKIE_SECURE=TRUE ONLY FOR HTTPS!
-SESSION_COOKIE_SECURE = False
-SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
+# SESSION_COOKIE_SECURE = False
+# SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
 #SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+LOGIN_URL = u'/login/'
+LOGIN_REDIRECT_URL = "/"
+#CSRF_COOKIE_SECURE = False
+
+ADMIN_SITE_HEADER = "OrangeADE Administration"
 
