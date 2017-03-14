@@ -1,5 +1,5 @@
 {% include "main_html_start.html" %}
-{% include "main_html_headers.html" %}
+{% include "main_html_header.html" %}
 
 <body>
 {% include "main_header.html" %}
@@ -12,6 +12,7 @@
             <p>We will test your device against known problems. Just press a button below to start..</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button" align="center">START</a></p>
             <p>Your SESSION ID: {{session_id}}</p>
+            <p>Yout LOGIN     : {{request.user.username}}</p>
             <p>Your IP ADDRESS: {{user_addr}}</p>
             <p>User agent     : {{user_agent}}</p>
             <p>Current time   : {{current_date}}</p>
